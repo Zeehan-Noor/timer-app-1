@@ -1,8 +1,24 @@
-.timer-container {
-	background-color: var(--timer-background-color);
-	border: var(--timer-border);
-	height: var(--timer-height);
-	width: var(--timer-width);
-display: flex;
-	flex-direction: row;
+.timer-container{
+	
+	padding: 50px;
+	margin: auto;
+	align-content: center;
+	text-align: center;
 }
+
+
+.time-display{
+	font: 72px Arial, sans-serif;
+	margin: auto;
+	padding: 20px;
+}
+
+
+.timer-button-container{
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+

@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './TimerButton.css'
+import './TimerButton.css';
+import Button from '@material-ui/core/Button';
 
 
 const TimerButton = ({ buttonAction, buttonValue})=>(
 
     <div className='button-container' onClick={() => buttonAction()}>
 
-        <p className={`${buttonValue.toLowerCase()}-timer`}> {buttonValue}  </p>
+        <Button className={`${buttonValue.toLowerCase()}-timer`} variant="contained" color="primary">
+        {buttonValue}
+      </Button>
+    
+    
     </div>
     
     

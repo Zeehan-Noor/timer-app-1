@@ -65,7 +65,7 @@ describe('mounted Timer',()=>{
           container.instance().forceUpdate();
           container.find('.reset-timer').first().simulate('click');
           expect(container.instance().state.isOn).toEqual(false);
-          expect(container.instance().state.minutes).toEqual(25);
+          expect(container.instance().state.minutes).toEqual(1);
           expect(container.instance().state.seconds).toEqual(0);
       })
 
