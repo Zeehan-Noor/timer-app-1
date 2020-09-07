@@ -1,8 +1,8 @@
 import React from 'react';
 import './Timer.css';
 import TimerButton from './../TimerButton/TimerButton';
-import Paper from '@material-ui/core/Paper';
 import { Typography } from '@material-ui/core';
+import FlipTimer from './../FlipClockTimer/FlipTimer/FlipTimer'
 
 
 
@@ -84,18 +84,22 @@ Arrow functions are exempt from this behavior because they use lexical this bind
     }
 
     render = () => {
-        const { seconds, minutes } = this.state;
-
+        
         return (
             <div>
-                <Paper elevation={3} >
+
+
+
+
+                
                 <div className="timer-container">
                     <Typography variant='h4' gutterBottom >TIMER APP</Typography>
-                    <div className="time-display" >
+                   
                         
-                        {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+                    <FlipTimer minutes={this.state.minutes} seconds={this.state.seconds} />
 
-                    </div>
+                
+                     
                     <div className="timer-button-container">
                         <TimerButton
 
@@ -111,7 +115,7 @@ Arrow functions are exempt from this behavior because they use lexical this bind
                             buttonValue={'Reset'} />
                     </div>
                 </div>
-                </Paper>
+                
                 
             </div>
         );

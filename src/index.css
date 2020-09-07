@@ -1,12 +1,12 @@
 
-:root {
+/*:root {
 	--timer-background-color: #FFFFFF;
     --timer-border: 1px solid #000000;
 	--timer-height: 70%;
 	--timer-width: 70%;
 	--button-border: 3px solid #000000;
 	--button-text-size: 2em;
-}
+}*/
 
 body, div, p {
 	margin: 0;
@@ -15,7 +15,9 @@ body, div, p {
 }
 
 body{
-	background-color: gainsboro;
+	
+		 
+	background-color: #f0f2f5;
 }
 
 
