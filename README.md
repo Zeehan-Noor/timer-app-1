@@ -1,6 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Timer PWA
 
-## Available Scripts
+### Deployment on Firebase
+
+It has been deployed on Firebase for demo purpose and can be tested at below mention link:
+
+[Timer PWA](https://timer-app-4d0d4.web.app)
+
+### Features
+
+- [x] Test Driven Deployment TDD
+- [x] Progressive Web App
+- [x] Web App i.e. Installable on Desktop, Android and iPhone
+- [x] Offline Awailablity of PWA
+
+
+## Testing Guide on local System
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -16,8 +32,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### Deployment on Firebase
-
-
-https://timer-app-4d0d4.web.app
